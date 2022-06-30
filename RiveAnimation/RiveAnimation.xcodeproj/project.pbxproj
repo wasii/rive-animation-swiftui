@@ -24,6 +24,9 @@
 		C679A601286DA94000950C8F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C679A5FE286DA94000950C8F /* Poppins-Bold.ttf */; };
 		C679A602286DA94000950C8F /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C679A5FF286DA94000950C8F /* Inter-SemiBold.ttf */; };
 		C679A605286DAADD00950C8F /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A604286DAADD00950C8F /* CustomFont.swift */; };
+		C679A607286DB13D00950C8F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A606286DB13D00950C8F /* SignInView.swift */; };
+		C679A609286DB5A000950C8F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A608286DB5A000950C8F /* CustomTextField.swift */; };
+		C679A60B286DB87300950C8F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A60A286DB87300950C8F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		C679A5FF286DA94000950C8F /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		C679A603286DA98C00950C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C679A604286DAADD00950C8F /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		C679A606286DB13D00950C8F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		C679A608286DB5A000950C8F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C679A60A286DB87300950C8F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				C679A5DC286D814600950C8F /* Preview Content */,
 				C679A5E9286D82EA00950C8F /* OnboardingView.swift */,
 				C679A604286DAADD00950C8F /* CustomFont.swift */,
+				C679A606286DB13D00950C8F /* SignInView.swift */,
+				C679A608286DB5A000950C8F /* CustomTextField.swift */,
+				C679A60A286DB87300950C8F /* Extensions.swift */,
 			);
 			path = RiveAnimation;
 			sourceTree = "<group>";
@@ -211,8 +220,11 @@
 			files = (
 				C679A5EA286D82EA00950C8F /* OnboardingView.swift in Sources */,
 				C679A605286DAADD00950C8F /* CustomFont.swift in Sources */,
+				C679A609286DB5A000950C8F /* CustomTextField.swift in Sources */,
 				C679A5D9286D814400950C8F /* ContentView.swift in Sources */,
 				C679A5D7286D814400950C8F /* RiveAnimationApp.swift in Sources */,
+				C679A607286DB13D00950C8F /* SignInView.swift in Sources */,
+				C679A60B286DB87300950C8F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
