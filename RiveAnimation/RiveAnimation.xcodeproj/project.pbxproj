@@ -91,11 +91,8 @@
 				C679A5DA286D814600950C8F /* Assets.xcassets */,
 				C679A5F9286D845C00950C8F /* RiveAssets */,
 				C679A5DC286D814600950C8F /* Preview Content */,
-				C679A5E9286D82EA00950C8F /* OnboardingView.swift */,
-				C679A604286DAADD00950C8F /* CustomFont.swift */,
-				C679A606286DB13D00950C8F /* SignInView.swift */,
-				C679A608286DB5A000950C8F /* CustomTextField.swift */,
-				C679A60A286DB87300950C8F /* Extensions.swift */,
+				C679A60C286DC9A000950C8F /* Views */,
+				C679A60D286DC9B100950C8F /* Styles */,
 			);
 			path = RiveAnimation;
 			sourceTree = "<group>";
@@ -130,6 +127,25 @@
 				C679A5FE286DA94000950C8F /* Poppins-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C679A60C286DC9A000950C8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C679A5E9286D82EA00950C8F /* OnboardingView.swift */,
+				C679A606286DB13D00950C8F /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C679A60D286DC9B100950C8F /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				C679A604286DAADD00950C8F /* CustomFont.swift */,
+				C679A608286DB5A000950C8F /* CustomTextField.swift */,
+				C679A60A286DB87300950C8F /* Extensions.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
