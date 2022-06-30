@@ -2,7 +2,7 @@
 //  RiveAnimationApp.swift
 //  RiveAnimation
 //
-//  Created by NaheedPK on 30/06/2022.
+//  Created by Wasiq Saleem on 30/06/2022.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct RiveAnimationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
         }
     }
 }

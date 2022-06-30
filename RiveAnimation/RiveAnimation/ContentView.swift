@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  RiveAnimation
 //
-//  Created by NaheedPK on 30/06/2022.
+//  Created by Wasiq Saleem on 30/06/2022.
 //
 
 import SwiftUI
