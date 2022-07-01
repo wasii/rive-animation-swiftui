@@ -11,6 +11,7 @@ import RiveRuntime
 struct OnboardingView: View {
     let startCourseButton = RiveViewModel(fileName: "button")
     @State var showSignInModal = false
+    @Binding var showSignIn: Bool
     var body: some View {
         ZStack {
             ///Background Section
@@ -44,6 +45,22 @@ struct OnboardingView: View {
                     )
                     .zIndex(1)
             }
+            /// CLOSE BUTTON
+            Button {
+                withAnimation {
+                    showSignIn = false
+                }
+            } label: {
+                Image(systemName: "xmark")
+                    .frame(width: 42, height: 42)
+                    .background(Color.black)
+                    .foregroundColor(.white)
+                    .mask(Circle())
+                .shadow(color: Color("Shadow").opacity(0.5), radius: 10, x: 0, y: 10)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+            .padding(20)
+            .offset(y: showSignInModal ? -200 : 80)
         }
     }
     var content: some View {
@@ -104,6 +121,6 @@ struct OnboardingView: View {
 
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingView()
+        OnboardingView(showSignIn: .constant(true))
     }
 }

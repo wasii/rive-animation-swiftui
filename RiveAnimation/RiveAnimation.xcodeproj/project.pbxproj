@@ -81,6 +81,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C640ED2D286F089000D7FB6D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C679A615286DDF2B00950C8F /* VCard.swift */,
+				C640ED25286ED5CE00D7FB6D /* HCard.swift */,
+				C640ED2B286EF19600D7FB6D /* MenuRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C640ED2E286F08E700D7FB6D /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				C679A5D8286D814400950C8F /* ContentView.swift */,
+				C679A60E286DCC9300950C8F /* TabBarView.swift */,
+				C640ED29286EDFB300D7FB6D /* SideMenu.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
 		C679A5CA286D814400950C8F = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +124,11 @@
 				C679A603286DA98C00950C8F /* Info.plist */,
 				C679A5FC286DA93400950C8F /* Fonts */,
 				C679A5D6286D814400950C8F /* RiveAnimationApp.swift */,
-				C679A5D8286D814400950C8F /* ContentView.swift */,
+				C640ED2E286F08E700D7FB6D /* Navigations */,
 				C679A5DA286D814600950C8F /* Assets.xcassets */,
 				C679A5F9286D845C00950C8F /* RiveAssets */,
 				C679A5DC286D814600950C8F /* Preview Content */,
+				C640ED2D286F089000D7FB6D /* Components */,
 				C679A60C286DC9A000950C8F /* Views */,
 				C679A60D286DC9B100950C8F /* Styles */,
 			);
@@ -151,12 +172,7 @@
 			children = (
 				C679A5E9286D82EA00950C8F /* OnboardingView.swift */,
 				C679A606286DB13D00950C8F /* SignInView.swift */,
-				C679A60E286DCC9300950C8F /* TabBarView.swift */,
-				C679A615286DDF2B00950C8F /* VCard.swift */,
-				C640ED25286ED5CE00D7FB6D /* HCard.swift */,
 				C640ED27286EDB6700D7FB6D /* HomeView.swift */,
-				C640ED29286EDFB300D7FB6D /* SideMenu.swift */,
-				C640ED2B286EF19600D7FB6D /* MenuRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -418,7 +434,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,7 +465,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
