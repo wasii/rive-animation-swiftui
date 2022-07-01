@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C640ED26286ED5CE00D7FB6D /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640ED25286ED5CE00D7FB6D /* HCard.swift */; };
 		C640ED28286EDB6700D7FB6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640ED27286EDB6700D7FB6D /* HomeView.swift */; };
+		C640ED2A286EDFB300D7FB6D /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640ED29286EDFB300D7FB6D /* SideMenu.swift */; };
 		C679A5D7286D814400950C8F /* RiveAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A5D6286D814400950C8F /* RiveAnimationApp.swift */; };
 		C679A5D9286D814400950C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A5D8286D814400950C8F /* ContentView.swift */; };
 		C679A5DB286D814600950C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C679A5DA286D814600950C8F /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		C640ED25286ED5CE00D7FB6D /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
 		C640ED27286EDB6700D7FB6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C640ED29286EDFB300D7FB6D /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		C679A5D3286D814400950C8F /* RiveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C679A5D6286D814400950C8F /* RiveAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiveAnimationApp.swift; sourceTree = "<group>"; };
 		C679A5D8286D814400950C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				C679A615286DDF2B00950C8F /* VCard.swift */,
 				C640ED25286ED5CE00D7FB6D /* HCard.swift */,
 				C640ED27286EDB6700D7FB6D /* HomeView.swift */,
+				C640ED29286EDFB300D7FB6D /* SideMenu.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				C640ED26286ED5CE00D7FB6D /* HCard.swift in Sources */,
 				C679A613286DDEE300950C8F /* Course.swift in Sources */,
 				C640ED28286EDB6700D7FB6D /* HomeView.swift in Sources */,
+				C640ED2A286EDFB300D7FB6D /* SideMenu.swift in Sources */,
 				C679A5EA286D82EA00950C8F /* OnboardingView.swift in Sources */,
 				C679A605286DAADD00950C8F /* CustomFont.swift in Sources */,
 				C679A60F286DCC9300950C8F /* TabBarView.swift in Sources */,
@@ -407,8 +411,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -418,7 +424,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -436,8 +442,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,7 +455,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
