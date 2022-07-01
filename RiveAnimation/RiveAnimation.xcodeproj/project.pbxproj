@@ -10,6 +10,7 @@
 		C640ED26286ED5CE00D7FB6D /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640ED25286ED5CE00D7FB6D /* HCard.swift */; };
 		C640ED28286EDB6700D7FB6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640ED27286EDB6700D7FB6D /* HomeView.swift */; };
 		C640ED2A286EDFB300D7FB6D /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640ED29286EDFB300D7FB6D /* SideMenu.swift */; };
+		C640ED2C286EF19600D7FB6D /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640ED2B286EF19600D7FB6D /* MenuRow.swift */; };
 		C679A5D7286D814400950C8F /* RiveAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A5D6286D814400950C8F /* RiveAnimationApp.swift */; };
 		C679A5D9286D814400950C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A5D8286D814400950C8F /* ContentView.swift */; };
 		C679A5DB286D814600950C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C679A5DA286D814600950C8F /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		C640ED25286ED5CE00D7FB6D /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
 		C640ED27286EDB6700D7FB6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C640ED29286EDFB300D7FB6D /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		C640ED2B286EF19600D7FB6D /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		C679A5D3286D814400950C8F /* RiveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C679A5D6286D814400950C8F /* RiveAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiveAnimationApp.swift; sourceTree = "<group>"; };
 		C679A5D8286D814400950C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				C640ED25286ED5CE00D7FB6D /* HCard.swift */,
 				C640ED27286EDB6700D7FB6D /* HomeView.swift */,
 				C640ED29286EDFB300D7FB6D /* SideMenu.swift */,
+				C640ED2B286EF19600D7FB6D /* MenuRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				C679A5D7286D814400950C8F /* RiveAnimationApp.swift in Sources */,
 				C679A607286DB13D00950C8F /* SignInView.swift in Sources */,
 				C679A60B286DB87300950C8F /* Extensions.swift in Sources */,
+				C640ED2C286EF19600D7FB6D /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
