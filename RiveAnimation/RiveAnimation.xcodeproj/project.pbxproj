@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C640ED26286ED5CE00D7FB6D /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640ED25286ED5CE00D7FB6D /* HCard.swift */; };
 		C679A5D7286D814400950C8F /* RiveAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A5D6286D814400950C8F /* RiveAnimationApp.swift */; };
 		C679A5D9286D814400950C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679A5D8286D814400950C8F /* ContentView.swift */; };
 		C679A5DB286D814600950C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C679A5DA286D814600950C8F /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C640ED25286ED5CE00D7FB6D /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
 		C679A5D3286D814400950C8F /* RiveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C679A5D6286D814400950C8F /* RiveAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiveAnimationApp.swift; sourceTree = "<group>"; };
 		C679A5D8286D814400950C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				C679A606286DB13D00950C8F /* SignInView.swift */,
 				C679A60E286DCC9300950C8F /* TabBarView.swift */,
 				C679A615286DDF2B00950C8F /* VCard.swift */,
+				C640ED25286ED5CE00D7FB6D /* HCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C640ED26286ED5CE00D7FB6D /* HCard.swift in Sources */,
 				C679A613286DDEE300950C8F /* Course.swift in Sources */,
 				C679A5EA286D82EA00950C8F /* OnboardingView.swift in Sources */,
 				C679A605286DAADD00950C8F /* CustomFont.swift in Sources */,
